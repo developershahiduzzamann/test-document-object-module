@@ -1,6 +1,9 @@
 h1{
-    color: lightblue;
+    color: rgb(230, 194, 173);
 }
 li{
-    color: aquamarine;
+    color: rgb(127, 255, 176);
+}
+.One{
+    color: blueviolet;
 }
