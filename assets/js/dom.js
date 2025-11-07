@@ -13,3 +13,6 @@ for(const list of allList){
 
 const header = document.getElementById('title');
  header.innerText = 'Top Three Country';
+
+ const listOne = document.getElementById('list');
+ listOne.innerText = 'Select Country';
