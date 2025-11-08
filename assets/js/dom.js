@@ -16,3 +16,8 @@ const header = document.getElementById('title');
 
  const listOne = document.getElementById('list');
  listOne.innerText = 'Select Country';
+
+ const allSelect = document.querySelectorAll('.book-list li');
+ for(const listtwo of allList){
+    console.log(listtwo.innerText);
+ }
