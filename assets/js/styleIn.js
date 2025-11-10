@@ -7,3 +7,6 @@ for(const section of sectionAll){
 }
 const country = document.getElementById('country');
 country.style.backgroundColor = 'yellow';
+
+const home = document.getElementById('Home');
+home.classList.add('yellow')
