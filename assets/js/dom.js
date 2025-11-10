@@ -8,7 +8,7 @@ for(h1 of allHeading){
 }
 const allList = document.getElementsByClassName('One');
 for(const list of allList){
-    console.log(list.innerText);
+    // console.log(list.innerText);
 }
 
 // const header = document.getElementById('title');
@@ -19,8 +19,9 @@ for(const list of allList){
 
  const allSelect = document.querySelectorAll('.book-list li');
  for(const listtwo of allList){
-    console.log(listtwo.innerText);
+    // console.log(listtwo.innerText);
  }
 const div = document.getElementById('country');
 const divTwo = div.innerHTML;
-console.log(divTwo);
+// console.log(divTwo);
+
