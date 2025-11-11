@@ -10,3 +10,4 @@ country.style.backgroundColor = 'yellow';
 
 const home = document.getElementById('Home');
 home.classList.add('yellow')
+home.classList.remove('yellow')
