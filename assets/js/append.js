@@ -24,9 +24,14 @@ ul.appendChild(li2);
 const li3 = document.createElement('li')
 li3.innerText = 'Banana';
 ul.appendChild(li3);
+
 const li4 = document.createElement('li')
 li4.innerText = 'Mango';
 ul.appendChild(li4);
+
+const li5 = document.createElement('li')
+li5.innerText = 'Angur';
+ul.appendChild(li5);
 
 section.appendChild(ul);
 
