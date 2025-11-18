@@ -13,25 +13,29 @@ h1.innerText= 'my furuts  items';
 section.appendChild(h1);
 
 const ul = document.createElement('ul');
-const li1 = document.createElement('li')
+const li1 = document.createElement('li');
 li1.innerText = 'Apple';
 ul.appendChild(li1);
 
-const li2 = document.createElement('li')
+const li2 = document.createElement('li');
 li2.innerText = 'Orange';
 ul.appendChild(li2);
 
-const li3 = document.createElement('li')
+const li3 = document.createElement('li');
 li3.innerText = 'Banana';
 ul.appendChild(li3);
 
-const li4 = document.createElement('li')
+const li4 = document.createElement('li');
 li4.innerText = 'Mango';
 ul.appendChild(li4);
 
-const li5 = document.createElement('li')
+const li5 = document.createElement('li');
 li5.innerText = 'Angur';
 ul.appendChild(li5);
+
+const li6 = document.createElement('li');
+li6.innerText = 'stobary';
+ul.appendChild(li6);
 
 section.appendChild(ul);
 
