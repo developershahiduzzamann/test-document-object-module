@@ -40,3 +40,7 @@ ul.appendChild(li6);
 section.appendChild(ul);
 
 mContainer.appendChild(section);
+
+function Bbtn(){
+    document.body.style.backgroundColor = 'red';
+}
