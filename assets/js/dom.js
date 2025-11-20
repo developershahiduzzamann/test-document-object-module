@@ -8,11 +8,20 @@ for(h1 of allHeading){
 }
 const allList = document.getElementsByClassName('One');
 for(const list of allList){
-    console.log(list.innerText);
+    // console.log(list.innerText);
 }
 
-const header = document.getElementById('title');
- header.innerText = 'Top Three Country';
+// const header = document.getElementById('title');
+//  header.innerText = 'Top Three Country';
 
- const listOne = document.getElementById('list');
- listOne.innerText = 'Select Country';
+//  const listOne = document.getElementById('list');
+//  listOne.innerText = 'Select Country';
+
+ const allSelect = document.querySelectorAll('.book-list li');
+ for(const listtwo of allList){
+    // console.log(listtwo.innerText);
+ }
+const div = document.getElementById('country');
+const divTwo = div.innerHTML;
+// console.log(divTwo);
+

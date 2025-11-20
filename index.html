@@ -9,10 +9,10 @@
 <body>
     <header>
         <h1>welcome to my country</h1>
-        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem maxime quasi nihil voluptates, qui dolorum nemo in animi illum, illo recusandae at. Pariatur ipsum sint quia omnis quod eaque quos!</p>
+        <p id="subOne">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem maxime quasi nihil voluptates, qui dolorum nemo in animi illum, illo recusandae at. Pariatur ipsum sint quia omnis quod eaque quos!</p>
     </header>
-    <main>
-        <section>
+    <main id="m-container">
+        <section id="country">
             <h1 id="list">List Section</h1>
         <ul>
               <li>Bangladesh</li>
@@ -20,17 +20,29 @@
               <li>Vutan</li>
         </ul>
         </section>
-        <section>
+        <section id="Home">
             <h1 id="title">This section is my country</h1>
-            <h1>This section is othes country</h1>
             <ul>
               <li class="One">Home</li>
               <li class="One">About</li>
               <li class="One">List</li>
             </ul>
         </section>
-    </main>
+        <section class="book-list">
+            <h1 id="subtitle">This Book List</h1>
+            <ul id="bookList">
+              <li class="One">Bangla </li>
+              <li class="One">English</li>
+              <li class="One">Math</li>
+              <li class="One">Islam</li>
+            </ul>
+        </section>
 
+    </main>
+    <button class="btn" onclick="Bbtn()">Submit Now </button>
     <script src="./assets/js/dom.js"></script>
+    <script src="./assets/js/styleIn.js"></script>
+    <script src="./assets/js/append.js"></script>
+    <script src="./assets/js/btn.js"></script>
 </body>
 </html>
