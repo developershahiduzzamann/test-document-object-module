@@ -9,4 +9,14 @@ document.getElementById('btn-login')
 .addEventListener('click',function(){
     const loginPage = document.getElementById('btn-log');
     loginPage.innerText = 'LogOut'
+});
+
+document.getElementById('btn-update')
+.addEventListener('click',function(){
+    const inputName = document.getElementById('input-name');
+    const name = inputName.value
+    const nName = document.getElementById('your-name');
+    nName.innerText = name;
+
+
 })
